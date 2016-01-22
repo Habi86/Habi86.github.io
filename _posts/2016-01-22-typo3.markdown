@@ -16,6 +16,7 @@ Hat man TypoScript erlernt – das zugegeben nicht so einfach ist – so kann di
 
 **TypoScript-Beispiel:** Um überhaupt eine Ausgabe erzeugen zu können, ist mindestens das Erzeugen eines PAGE-Objektes nötig. Mit folgendem Code wird die formatierte Überschrift „Hello, world!“ ausgegeben:
 
+
 ```sh
  page = PAGE
  page.10 = TEXT
@@ -23,6 +24,7 @@ Hat man TypoScript erlernt – das zugegeben nicht so einfach ist – so kann di
  page.10.wrap = <h2>|</h2>
 ```
 Ausgabe:
+
 
 ```sh
 <h2>Hello, world!</h2>
