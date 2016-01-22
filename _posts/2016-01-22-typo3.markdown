@@ -4,5 +4,4 @@ title:  "Typo3"
 date:   2016-01-22 13:28:08 +0100
 categories: CMS
 ---
-TYPO3 ist das weitverbreitetste Content Management System Europas und wird weltweit auf weit mehr als 500.000 Websites genutzt. Es bietet zahlreichen nützlichen Erweiterungen, ohne dass ein eigener Programmcode dafür nötig ist. Das macht TYPO3 besonders mächtig.
-Die derzeit über 5000 Erweiterungen stammen zum größten Teil von Fremdanbietern und sind kostenlos verfügbar. Erhältlich sind unter anderem Erweiterungen für News, Shop-Systeme, Google-Schnittstelle, oder Diskussionsforen. Alle diese Module sind open source verfügbar.
+wat.
