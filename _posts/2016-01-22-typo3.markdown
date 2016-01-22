@@ -19,12 +19,12 @@ Hat man TypoScript erlernt – das zugegeben nicht so einfach ist – so kann di
 
 ```html
 page = PAGE
+
 page.10 = TEXT
+
 page.10.value = Hello, world!
 page.10.wrap = <h2>|</h2>
 ```
-
-Ausgabe:
 
 ```html
 <h2>Hello, world!</h2>
