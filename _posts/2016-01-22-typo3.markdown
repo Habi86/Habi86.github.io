@@ -16,26 +16,26 @@ Hat man TypoScript erlernt – das zugegeben nicht so einfach ist – so kann di
 
 **TypoScript-Beispiel:** Um überhaupt eine Ausgabe erzeugen zu können, ist mindestens das Erzeugen eines PAGE-Objektes nötig. Mit folgendem Code wird die formatierte Überschrift „Hello, world!“ ausgegeben:
 
-```sh
+```
 page = PAGE
 ```
 
-```sh
+```
 page.10 = TEXT
 ```
 
-```sh
+```
 page.10.value = Hello, world!
 ```
 
-```sh
+```
 page.10.wrap = <h2>|</h2>
 ```
 
 Ausgabe:
 
 
-```sh
+```
 <h2>Hello, world!</h2>
 ```
 
@@ -52,6 +52,8 @@ Dass TYPO3 komplizierter ist als andere CMS war mir von vornhinein klar. Ich kam
 Ich war auch Teil eines Online-Shop Projekts vor 2 Jahren und konnte die Probleme mitverfolgen die dabei entstehen können. (Inkompatible Erweiterungen und die Komplexität mit den Steuern)
 
 Höchst interessant fand ich die Meinung der Vortragenden. Dass Beispielsweise TYPO3 den Anschluss verloren hätte und es inzwischen viel mehr Möglichkeiten gibt, die TYPO3 nicht unterstützt.
+Diese Aussage hilft mir sehr bei der nächsten CMS-Entscheidung!
+
 
 
 > Arend, Silke, "TYPO3 - das beliebte und leistungsfähige CMS" http://www.typo3-websites.eu/typo3-cms
