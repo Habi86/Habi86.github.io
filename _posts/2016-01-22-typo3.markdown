@@ -16,17 +16,26 @@ Hat man TypoScript erlernt – das zugegeben nicht so einfach ist – so kann di
 
 **TypoScript-Beispiel:** Um überhaupt eine Ausgabe erzeugen zu können, ist mindestens das Erzeugen eines PAGE-Objektes nötig. Mit folgendem Code wird die formatierte Überschrift „Hello, world!“ ausgegeben:
 
+```
+page = PAGE
+```
 
-> page = PAGE
-> page.10 = TEXT
-> page.10.value = Hello, world!
-> page.10.wrap = <h2>|</h2>
+```
+page.10 = TEXT
+```
 
+```
+page.10.value = Hello, world!
+```
+
+```
+page.10.wrap = <h2>|</h2>
+```
 
 Ausgabe:
-
-> <h2>Hello, world!</h2>
-
+```
+<h2>Hello, world!</h2>
+```
 
 Es erfordert sowohl für den Administrator, als auch für den Redakteur sicherlich einen gewissen Einarbeitungsaufwand, um sich mit diesem System vertraut zu machen. Dies liegt aber an dem mächtigen Leistungsumfang des Systems, die es bietet und nicht an einer unübersichtlichen Konfigurations- bzw. Redaktionsoberfläche.
 
@@ -42,5 +51,7 @@ Höchst interessant fand ich die Meinung der Vortragenden. Dass Beispielsweise T
 
 
 > Arend, Silke, "TYPO3 - das beliebte und leistungsfähige CMS" http://www.typo3-websites.eu/typo3-cms
+
 > Hinzer, Boris "Kurzübersicht TYPO3" http://www.web-vision.de/typo3-cms/typo3-uebersicht.html
+
 > Thomas, 2007. "TypoScript: Eine Einführung – Teil 1" http://www.webworking-blog.de/content-management/typo3/typoscript-eine-einfuhrung/
