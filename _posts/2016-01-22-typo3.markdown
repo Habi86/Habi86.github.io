@@ -19,20 +19,18 @@ Hat man TypoScript erlernt – das zugegeben nicht so einfach ist – so kann di
 ```
 page = PAGE
 ```
-
 ```
 page.10 = TEXT
 ```
-
 ```
 page.10.value = Hello, world!
 ```
-
 ```
 page.10.wrap = <h2>|</h2>
 ```
 
 Ausgabe:
+
 ```
 <h2>Hello, world!</h2>
 ```
@@ -44,7 +42,7 @@ Ein großes Manko bei den zahlreich, verfügbaren Erweiterungen ist, dass Erweit
 
 ### Fazit
 Bis vor kurzem war ich überzeugt von TYPO3. Jedoch durch die Workshops, die wir im CMS Unterricht sehen durften, hat sich meine Meinung etwas geändert.
-Dass TYPO3 komplizierter ist als andere CMS war mir von vornhinein klar. Ich kam auch schon in den Genuss das System aufsetzen zu dürfen und scheiterte daran, da ich bestimmte Rechte am Server nicht hatte – diese Erkenntnis kam aber erst nach mehreren Stunden 
+Dass TYPO3 komplizierter ist als andere CMS war mir von vornhinein klar. Ich kam auch schon in den Genuss das System aufsetzen zu dürfen und scheiterte daran, da ich bestimmte Rechte am Server nicht hatte – diese Erkenntnis kam aber erst nach mehreren Stunden.
 Ich war auch Teil eines Online-Shop Projekts vor 2 Jahren und konnte die Probleme mitverfolgen die dabei entstehen können. (Inkompatible Erweiterungen und die Komplexität mit den Steuern)
 
 Höchst interessant fand ich die Meinung der Vortragenden. Dass Beispielsweise TYPO3 den Anschluss verloren hätte und es inzwischen viel mehr Möglichkeiten gibt, die TYPO3 nicht unterstützt.
