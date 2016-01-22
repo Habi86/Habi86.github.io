@@ -19,12 +19,15 @@ Hat man TypoScript erlernt – das zugegeben nicht so einfach ist – so kann di
 ```
 page = PAGE
 ```
+
 ```
 page.10 = TEXT
 ```
+
 ```
 page.10.value = Hello, world!
 ```
+
 ```
 page.10.wrap = <h2>|</h2>
 ```
@@ -37,8 +40,10 @@ Ausgabe:
 
 Es erfordert sowohl für den Administrator, als auch für den Redakteur sicherlich einen gewissen Einarbeitungsaufwand, um sich mit diesem System vertraut zu machen. Dies liegt aber an dem mächtigen Leistungsumfang des Systems, die es bietet und nicht an einer unübersichtlichen Konfigurations- bzw. Redaktionsoberfläche.
 
+
 ### Die andere Seite der Medaille
 Ein großes Manko bei den zahlreich, verfügbaren Erweiterungen ist, dass Erweiterungen gelegentlich nur isoliert tadellos funktionieren. In manchen Einzelfällen ist es durchaus möglich, dass kombiniert, mit anderen Erweiterungen, Probleme entstehen. In diesem Fall muss in das System eingegriffen werden und das kann zu unerwarteten Kosten führen.
+
 
 ### Fazit
 Bis vor kurzem war ich überzeugt von TYPO3. Jedoch durch die Workshops, die wir im CMS Unterricht sehen durften, hat sich meine Meinung etwas geändert.
