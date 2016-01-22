@@ -17,22 +17,17 @@ Hat man TypoScript erlernt – das zugegeben nicht so einfach ist – so kann di
 **TypoScript-Beispiel:** Um überhaupt eine Ausgabe erzeugen zu können, ist mindestens das Erzeugen eines PAGE-Objektes nötig. Mit folgendem Code wird die formatierte Überschrift „Hello, world!“ ausgegeben:
 
 
-```
- page = PAGE
-
- page.10 = TEXT
-
- page.10.value = Hello, world!
-
- page.10.wrap = <h2>|</h2>
-
+```html
+page = PAGE
+page.10 = TEXT
+page.10.value = Hello, world!
+page.10.wrap = <h2>|</h2>
 ```
 
 Ausgabe:
 
-
-```
- <h2>Hello, world!</h2>
+```html
+<h2>Hello, world!</h2>
 ```
 
 Es erfordert sowohl für den Administrator, als auch für den Redakteur sicherlich einen gewissen Einarbeitungsaufwand, um sich mit diesem System vertraut zu machen. Dies liegt aber an dem mächtigen Leistungsumfang des Systems, die es bietet und nicht an einer unübersichtlichen Konfigurations- bzw. Redaktionsoberfläche.
