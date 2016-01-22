@@ -17,18 +17,16 @@ Hat man TypoScript erlernt – das zugegeben nicht so einfach ist – so kann di
 **TypoScript-Beispiel:** Um überhaupt eine Ausgabe erzeugen zu können, ist mindestens das Erzeugen eines PAGE-Objektes nötig. Mit folgendem Code wird die formatierte Überschrift „Hello, world!“ ausgegeben:
 
 
-```html
-page = PAGE
+> page = PAGE
+> page.10 = TEXT
+> page.10.value = Hello, world!
+> page.10.wrap = <h2>|</h2>
 
-page.10 = TEXT
 
-page.10.value = Hello, world!
-page.10.wrap = <h2>|</h2>
-```
+Ausgabe:
 
-```html
-<h2>Hello, world!</h2>
-```
+> <h2>Hello, world!</h2>
+
 
 Es erfordert sowohl für den Administrator, als auch für den Redakteur sicherlich einen gewissen Einarbeitungsaufwand, um sich mit diesem System vertraut zu machen. Dies liegt aber an dem mächtigen Leistungsumfang des Systems, die es bietet und nicht an einer unübersichtlichen Konfigurations- bzw. Redaktionsoberfläche.
 
@@ -36,3 +34,13 @@ Es erfordert sowohl für den Administrator, als auch für den Redakteur sicherli
 Ein großes Manko bei den zahlreich, verfügbaren Erweiterungen ist, dass Erweiterungen gelegentlich nur isoliert tadellos funktionieren. In manchen Einzelfällen ist es durchaus möglich, dass kombiniert, mit anderen Erweiterungen, Probleme entstehen. In diesem Fall muss in das System eingegriffen werden und das kann zu unerwarteten Kosten führen.
 
 ### Fazit
+Bis vor kurzem war ich überzeugt von TYPO3. Jedoch durch die Workshops, die wir im CMS Unterricht sehen durften, hat sich meine Meinung etwas geändert.
+Dass TYPO3 komplizierter ist als andere CMS war mir von vornhinein klar. Ich kam auch schon in den Genuss das System aufsetzen zu dürfen und scheiterte daran, da ich bestimmte Rechte am Server nicht hatte – diese Erkenntnis kam aber erst nach mehreren Stunden 
+Ich war auch Teil eines Online-Shop Projekts vor 2 Jahren und konnte die Probleme mitverfolgen die dabei entstehen können. (Inkompatible Erweiterungen und die Komplexität mit den Steuern)
+
+Höchst interessant fand ich die Meinung der Vortragenden. Dass Beispielsweise TYPO3 den Anschluss verloren hätte und es inzwischen viel mehr Möglichkeiten gibt, die TYPO3 nicht unterstützt.
+
+
+> Arend, Silke, "TYPO3 - das beliebte und leistungsfähige CMS" http://www.typo3-websites.eu/typo3-cms
+> Hinzer, Boris "Kurzübersicht TYPO3" http://www.web-vision.de/typo3-cms/typo3-uebersicht.html
+> Thomas, 2007. "TypoScript: Eine Einführung – Teil 1" http://www.webworking-blog.de/content-management/typo3/typoscript-eine-einfuhrung/
