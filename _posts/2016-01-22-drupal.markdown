@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Drupal"
-date:   2016-01-22 13:28:08 +0100
+date:   2016-01-22 13:50:08 +0100
 categories: CMS
 ---
 <<Drupal>>
