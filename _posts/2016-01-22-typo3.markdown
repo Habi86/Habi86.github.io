@@ -23,6 +23,7 @@ Hat man TypoScript erlernt – das zugegeben nicht so einfach ist – so kann di
  page.10.value = Hello, world!
  page.10.wrap = <h2>|</h2>
 ```
+
 Ausgabe:
 
 
