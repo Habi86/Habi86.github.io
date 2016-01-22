@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "TYPO3"
-date:   2015-11-24 13:28:08 +0100
+date:   2016-01-22 13:28:08 +0100
 categories: CMS
 ---
 TYPO3 ist das weitverbreitetste Content Management System Europas und wird weltweit auf weit mehr als 500.000 Websites genutzt. Es bietet zahlreichen nützlichen Erweiterungen, ohne dass ein eigener Programmcode dafür nötig ist. Das macht TYPO3 besonders mächtig.
@@ -13,3 +13,22 @@ Das CMS wird auf einem Webserver installiert und mit einem Webbrowser benutzt. D
 - **Eingabe und Redaktion des Website-Inhalts:** Ein WYSIWYG-Editor erlaubt es Anwendern ohne HTML-Kenntnisse, redaktionelle Tätigkeiten zu erledigen.
 - **Konfiguration von TYPO3 mittels TypoScript:** Dabei handelt es sich um keine Programmiersprache ist, es ist eher eine Konfigurationssprache – vergleichbar mit der Windows Registry. Was in TypoScript definiert ist, wird in ein systemweites PHP-Array geparst. Dieses wiederum steuert, welche PHP-Funktionen beim Aufruf der Seite ausgeführt werden. Damit können Eigenschaften und Erweiterungen mit wenigen Handgriffen global für die gesamte Website verwaltet werden.
 Hat man TypoScript erlernt – das zugegeben nicht so einfach ist – so kann die Ausgabe der Webseite extrem clever gestaltet werden.
+
+**TypoScript-Beispiel:** Um überhaupt eine Ausgabe erzeugen zu können, ist mindestens das Erzeugen eines PAGE-Objektes nötig. Mit folgendem Code wird die formatierte Überschrift „Hello, world!“ ausgegeben:
+```sh
+ page = PAGE
+ page.10 = TEXT
+ page.10.value = Hello, world!
+ page.10.wrap = <h2>|</h2>
+```
+Ausgabe:
+```sh
+<h2>Hello, world!</h2>
+```
+
+Es erfordert sowohl für den Administrator, als auch für den Redakteur sicherlich einen gewissen Einarbeitungsaufwand, um sich mit diesem System vertraut zu machen. Dies liegt aber an dem mächtigen Leistungsumfang des Systems, die es bietet und nicht an einer unübersichtlichen Konfigurations- bzw. Redaktionsoberfläche.
+
+### Die andere Seite der Medaille
+Ein großes Manko bei den zahlreich, verfügbaren Erweiterungen ist, dass Erweiterungen gelegentlich nur isoliert tadellos funktionieren. In manchen Einzelfällen ist es durchaus möglich, dass kombiniert, mit anderen Erweiterungen, Probleme entstehen. In diesem Fall muss in das System eingegriffen werden und das kann zu unerwarteten Kosten führen.
+
+### Fazit
