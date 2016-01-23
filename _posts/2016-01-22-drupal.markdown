@@ -24,4 +24,5 @@ Um sich ein eigenes Layout zu bauen, benötigt der Nutzer weitreichende HTML-, CS
 ## Fazit
 Drupal sagt mir zur Zeit am meisten, von allen CMS die ich kenne, zu. Erwähnenswert ist auch , dass Drupal auch international bekannt ist und das wird auch seinen Grund haben  :-).
 Auch bei den Workshops wurde Drupal positiv gesehen. 
+
 Es gestaltet sich sehr offen und ist flexibel einsetzbar. Einzig die Struktur des Backends ist etwas umfangreich, jedoch hilft dabei eine große Community bei offenen Fragen, für den nötigen aha-Effekt.
