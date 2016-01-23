@@ -4,4 +4,24 @@ title:  "Drupal"
 date:   2016-01-22 13:50:08 +0100
 categories: CMS
 ---
-<<Drupal>>
+Nach Aussagen vieler Webentwickler gibt es bei der Arbeit mit dem Content Management System "Drupal" kein Webseiten-Projekt, das man nicht umsetzen könne. Es liegt nur am Entwickler, wie gut er mit dem System umgehen kann.
+
+Die Installation ist sehr simpel: Nach dem Entpacken der Dateien muss der Nutzer Drupal lediglich auf einem FTP-Server hochladen, die gewohnte Einstellungen im settings.php bestimmen und die Zugriffsrechte setzen.
+Da das Content Management System sehr flexibel gestaltet ist, verlieren Einsteiger oft schnell den Überblick. Ein eingebautes Hilfe-System, umfangreiche Dokumentationen, große Drupal-Foren, Video-Anleitungen und diverse Bücher helfen beim Umgang mit Drupal weiter.
+
+
+## Aufbau 
+Drupal ist modular aufgebaut und nach der Standardinstallation bereits sehr schnell als Blog oder einfaches CMS einsetzbar. Funktionen wie ein Forum bzw. ein Glossar sind bereits vorinstalliert und müssen nur noch aktiviert werden.
+Möchte man das CMS erweitern so können Module installiert werden. Diese stellen entweder eine ganze Seite dar oder enthalten nur eine kleine Funktion. Derzeit gibt es über 3.600 Module allein auf der offiziellen englischen Webseite. Weitere Drupal-Communities und Drittanbieter bieten weitere Module zum kostenfreien Download an.
+Das wichtigste Modul ist das Content Construction Kit (CCK). Damit ist die Erstellung eigener Inhaltstypen möglich. Außerdem greifen viele weitere Module darauf zu. 
+
+
+## Design-Vorlagen 
+Bei der Design-Auswahl stehen dem Nutzer über 650 Vorlaufen auf der offiziellen englischsprachigen Drupal-Webseite zur Verfügung. Es gibt aber auch weitere Templates von Drittanbieter die man kostenlos bzw. kostenpflichtig downloaden kann.
+Um sich ein eigenes Layout zu bauen, benötigt der Nutzer weitreichende HTML-, CSS- und PHP-Kenntnisse. Unterstützung kann man sich mit dem Template Engine „Smarty“ holen oder sich bei zahlreiche Tutorials im Internet informieren.
+
+
+## Fazit
+Drupal sagt mir zur Zeit am meisten, von allen CMS die ich kenne, zu. Erwähnenswert ist auch , dass Drupal auch international bekannt ist und das wird auch seinen Grund haben  :-).
+Auch bei den Workshops wurde Drupal positiv gesehen. 
+Es gestaltet sich sehr offen und ist flexibel einsetzbar. Einzig die Struktur des Backends ist etwas umfangreich, jedoch hilft dabei eine große Community bei offenen Fragen, für den nötigen aha-Effekt.

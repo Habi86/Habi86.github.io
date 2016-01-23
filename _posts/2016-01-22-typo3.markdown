@@ -36,7 +36,7 @@ Ausgabe:
 
 
 ```
-<h2>Hello, world!</h2>
+    <h2>Hello, world!</h2>
 ```
 
 Es erfordert sowohl für den Administrator, als auch für den Redakteur sicherlich einen gewissen Einarbeitungsaufwand, um sich mit diesem System vertraut zu machen. Dies liegt aber an dem mächtigen Leistungsumfang des Systems, die es bietet und nicht an einer unübersichtlichen Konfigurations- bzw. Redaktionsoberfläche.
