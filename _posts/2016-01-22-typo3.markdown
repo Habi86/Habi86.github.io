@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "TYPO3"
-date:   2016-01-22 13:28:08 +0100
+date:   2016-01-22 15:00:00 +0100
 categories: CMS
 ---
 TYPO3 ist das weitverbreitetste Content Management System Europas und wird weltweit auf weit mehr als 500.000 Websites genutzt. Es bietet zahlreichen nützlichen Erweiterungen, ohne dass ein eigener Programmcode dafür nötig ist. Das macht TYPO3 besonders mächtig.
