@@ -1,0 +1,55 @@
+---
+layout: post
+title:  "D3 Übung"
+date:   2016-01-22 13:00:00 +0100
+categories: CMS
+---
+SVG ist kein neues Grafikformat. Da es nun von allen gängigen Browsern unterstützt wird, kommt es häufiger zum Einsatz. Mit SVG lassen sich 2D Vektorgrafiken direkt im Browser darstellen. Es wird also keine Grafik wie beispielweise JPEG oder PNG statisch eingebettet, sondern man schreibt SVG direkt in den Quellcode. Diese DOM kann dann direkt per Javascript – etwa mit Event Handlern – manipuliert, also dynamisch dargestellt werden.
+Um aus reinen Vektorgrafiken interaktive Infografiken zu erstellen, gibt es das Framework d3.js.
+
+D3 ist ein Framework für Datenvisualisierung. Es bietet spezielle Funktionen für die Manipulation von DOM-Objekten auf Basis von Daten. 
+
+D3 ist sehr mächtig, es beinhaltet aber auch eine relativ steile Lernkurve im Vergleich zu anderen Frameworks.
+
+### Selections
+{% highlight js %}
+ d3.selectAll("p")                 // select all <p> elements
+   .style("color", "lavender")     // set style "color" to value "lavender"
+   .attr("class", "squares")       // set attribute "class" to value "squares"
+   .attr("x", 50);                 // set attribute "x" (horizontal position) to value 50px
+{% endhighlight %}
+
+### Transitions
+{% highlight js %}
+ d3.selectAll("p")             // select all <p> elements
+   .transition("trans_1")      // transition with name "trans_1"
+     .delay(0)                 // transition starting 0ms after trigger
+     .duration(500)            // transitioning during 500ms
+     .ease("linear")           // transition easing progression is linear...
+   .style("color", "pink");    // ... to color:pink
+{% endhighlight %}
+
+### Data-binding
+{% highlight js %}
+// Data
+  var data = [
+     { name:"Ireland",  income:53000, life: 78, pop:6378, color: "green"},
+     { name:"Norway",   income:73000, life: 87, pop:5084, color: "blue" },
+     { name:"Tanzania", income:27000, life: 50, pop:3407, color: "grey" }
+  ];
+// Create SVG container
+  var svg = d3.select("#hook").append("svg")
+        .attr("width", 120)
+        .attr("height", 120)
+        .style("fill", "#D0D0D0");
+// Create SVG elements from data !
+    svg.selectAll("circle")                  // create virtual circle template
+      .data(data)                            // bind data
+    .enter()                                 // for each row in data...
+      .append("circle")                      // bind circle & data row such that... 
+        .attr("id", function(d) { return d.name })           // set the circle's id according to the country name
+        .attr("cx", function(d) { return d.income /1000  })  // set the circle's horizontal position according to income 
+        .attr("cy", function(d) { return d.life })           // set the circle's vertical position according to life expectancy 
+        .attr("r",  function(d) { return d.pop /1000 *2 })   // set the circle's radius according to country's population 
+        .attr("fill",function(d){ return d.color });         // set the circle's color according to country's color
+{% endhighlight %}
