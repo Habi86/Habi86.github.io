@@ -4,6 +4,10 @@ title:  "Drupal"
 date:   2016-01-22 14:00:00 +0100
 categories: CMS
 ---
+![TYPO3](/assets/drupal.png)
+
+> Quelle: https://drupal.org
+
 Nach Aussagen vieler Webentwickler gibt es bei der Arbeit mit dem Content Management System "Drupal" kein Webseiten-Projekt, das man nicht umsetzen könne. Es liegt nur am Entwickler, wie gut er mit dem System umgehen kann.
 
 Die Installation ist sehr simpel: Nach dem Entpacken der Dateien muss der Nutzer Drupal lediglich auf einem FTP-Server hochladen, die gewohnte Einstellungen im settings.php bestimmen und die Zugriffsrechte setzen.

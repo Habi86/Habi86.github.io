@@ -4,6 +4,7 @@ title:  "D3 Übung"
 date:   2016-01-22 13:00:00 +0100
 categories: CMS
 ---
+![D3](/assets/d3js.jpg)
 SVG ist kein neues Grafikformat. Da es nun von allen gängigen Browsern unterstützt wird, kommt es häufiger zum Einsatz. Mit SVG lassen sich 2D Vektorgrafiken direkt im Browser darstellen. Es wird also keine Grafik wie beispielweise JPEG oder PNG statisch eingebettet, sondern man schreibt SVG direkt in den Quellcode. Diese DOM kann dann direkt per Javascript – etwa mit Event Handlern – manipuliert, also dynamisch dargestellt werden.
 Um aus reinen Vektorgrafiken interaktive Infografiken zu erstellen, gibt es das Framework d3.js.
 
@@ -53,3 +54,9 @@ D3 ist sehr mächtig, es beinhaltet aber auch eine relativ steile Lernkurve im V
         .attr("r",  function(d) { return d.pop /1000 *2 })   // set the circle's radius according to country's population 
         .attr("fill",function(d){ return d.color });         // set the circle's color according to country's color
 {% endhighlight %}
+
+### D3 Übung: PieCharts
+**CMS-Vergleichsdaten von 2013**
+![PieChart](/assets/piechart.png)
+
+> Quelle http://www.arocom.de/de/blog/cms-vergleich-statistik
